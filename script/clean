@@ -1,5 +1,7 @@
 #!/bin/bash
 
 rm -rf ./build
+rm -rf ./dist
+rm -rf ./src/xmllint.ts
 rm -rf ./libxml2/compile
 rm -rf ./libxml2/m4

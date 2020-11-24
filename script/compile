@@ -8,6 +8,6 @@ emcc -O2 -s EMULATE_FUNCTION_POINTER_CASTS=1 \
 sed '/\/\* XMLLINT.RAW.JS \*\// {
 	r ./xmllint.raw.js
 	d
-}' < ./src/wrapper.js > ./xmllint.js
+}' < ./src/wrapper.ts > ./src/xmllint.ts
 
-rm -rf xmllint.raw.js
+#rm -rf xmllint.raw.js
